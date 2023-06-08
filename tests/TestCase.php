@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\:package_namespace\Test;
+namespace RenokiCo\LaravelD1\Test;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 

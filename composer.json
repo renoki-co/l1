@@ -1,9 +1,17 @@
 {
-    "name": "renoki-co/:package_name",
-    "description": ":package_description",
-    "keywords": ["laravel", "php"],
+    "name": "renoki-co/laravel-d1",
+    "description": "Cloudflare D1 database driver for Laravel.",
+    "keywords": [
+        "laravel",
+        "php",
+        "database",
+        "query",
+        "sqlite",
+        "cloudflare",
+        "d1"
+    ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/:package_name",
+    "homepage": "https://github.com/renoki-co/laravel-d1",
     "authors": [
         {
             "name": "Alex Renoki",
@@ -12,16 +20,16 @@
         }
     ],
     "require": {
-        "php": "^8.1"
+        "illuminate/database": "^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "RenokiCo\\:package_namespace\\": "src/"
+            "RenokiCo\\LaravelD1\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiCo\\:package_namespace\\Test\\": "tests"
+            "RenokiCo\\LaravelD1\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -40,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiCo\\:package_namespace\\:package_service_provider"
+                "RenokiCo\\LaravelD1\\LaravelD1ServiceProvider"
             ]
         }
     }
