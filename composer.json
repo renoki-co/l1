@@ -1,0 +1,47 @@
+{
+    "name": "renoki-co/:package_name",
+    "description": ":package_description",
+    "keywords": ["laravel", "php"],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/renoki-co/:package_name",
+    "authors": [
+        {
+            "name": "Alex Renoki",
+            "homepage": "https://github.com/rennokki",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RenokiCo\\:package_namespace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenokiCo\\:package_namespace\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "laravel/legacy-factories": "^1.1",
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^7.23|^8.3",
+        "vimeo/psalm": "4.24.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RenokiCo\\:package_namespace\\:package_service_provider"
+            ]
+        }
+    }
+}
