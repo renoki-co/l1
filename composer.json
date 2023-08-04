@@ -1,6 +1,6 @@
 {
-    "name": "renoki-co/laravel-d1",
-    "description": "Cloudflare D1 database driver for Laravel.",
+    "name": "renoki-co/l1",
+    "description": "Laravel integration for Cloudflare Workers services.",
     "keywords": [
         "laravel",
         "php",
@@ -8,10 +8,17 @@
         "query",
         "sqlite",
         "cloudflare",
-        "d1"
+        "d1",
+        "kv",
+        "r2",
+        "workers",
+        "serverless",
+        "serverless functions",
+        "serverless framework",
+        "serverless architecture"
     ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/laravel-d1",
+    "homepage": "https://github.com/renoki-co/l1",
     "authors": [
         {
             "name": "Alex Renoki",
@@ -20,16 +27,24 @@
         }
     ],
     "require": {
-        "illuminate/database": "^9.0|^10.0"
+        "doctrine/dbal": "^3.6",
+        "illuminate/cache": "^9.0|^10.0",
+        "illuminate/database": "^9.0|^10.0",
+        "saloonphp/laravel-http-sender": "^1.2",
+        "sammyjo20/saloon": "^2.0",
+        "sammyjo20/saloon-laravel": "^2.0"
+    },
+    "suggest": {
+        "ext-pdo": "Required to extend the PDO driver for Cloudflare D1."
     },
     "autoload": {
         "psr-4": {
-            "RenokiCo\\LaravelD1\\": "src/"
+            "RenokiCo\\L1\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RenokiCo\\LaravelD1\\Test\\": "tests"
+            "RenokiCo\\L1\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RenokiCo\\LaravelD1\\LaravelD1ServiceProvider"
+                "RenokiCo\\L1\\L1ServiceProvider"
             ]
         }
     }

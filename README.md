@@ -1,12 +1,12 @@
-# Laravel D1 driver for Laravel
+# L1
 
-![CI](https://github.com/renoki-co/laravel-d1/workflows/CI/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/renoki-co/laravel-d1/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/laravel-d1/branch/master)
+![CI](https://github.com/renoki-co/l1/workflows/CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/renoki-co/l1/branch/master/graph/badge.svg)](https://codecov.io/gh/renoki-co/l1/branch/master)
 [![StyleCI](https://github.styleci.io/repos/:styleci_code/shield?branch=master)](https://github.styleci.io/repos/:styleci_code)
-[![Latest Stable Version](https://poser.pugx.org/renoki-co/laravel-d1/v/stable)](https://packagist.org/packages/renoki-co/laravel-d1)
-[![Total Downloads](https://poser.pugx.org/renoki-co/laravel-d1/downloads)](https://packagist.org/packages/renoki-co/laravel-d1)
-[![Monthly Downloads](https://poser.pugx.org/renoki-co/laravel-d1/d/monthly)](https://packagist.org/packages/renoki-co/laravel-d1)
-[![License](https://poser.pugx.org/renoki-co/laravel-d1/license)](https://packagist.org/packages/renoki-co/laravel-d1)
+[![Latest Stable Version](https://poser.pugx.org/renoki-co/l1/v/stable)](https://packagist.org/packages/renoki-co/l1)
+[![Total Downloads](https://poser.pugx.org/renoki-co/l1/downloads)](https://packagist.org/packages/renoki-co/l1)
+[![Monthly Downloads](https://poser.pugx.org/renoki-co/l1/d/monthly)](https://packagist.org/packages/renoki-co/l1)
+[![License](https://poser.pugx.org/renoki-co/l1/license)](https://packagist.org/packages/renoki-co/l1)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -15,13 +15,13 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require renoki-co/laravel-d1
+composer require renoki-co/l1
 ```
 
 Publish the config:
 
 ```bash
-php artisan vendor:publish --provider="RenokiCo\LaravelD1\LaravelD1ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="RenokiCo\L1\L1ServiceProvider" --tag="config"
 ```
 
 ## 🙌 Usage

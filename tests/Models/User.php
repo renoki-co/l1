@@ -1,6 +1,6 @@
 <?php
 
-namespace RenokiCo\LaravelD1\Test\Models;
+namespace RenokiCo\L1\Test\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

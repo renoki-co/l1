@@ -1,0 +1,8 @@
+name = "d1-server"
+main = "src/worker.ts"
+compatibility_date = "2023-05-18"
+
+[[d1_databases]]
+binding = "DB1"
+database_name = "db1"
+database_id = "DB1"
