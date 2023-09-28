@@ -30,7 +30,7 @@ jobs:
           - 'prefer-stable'
         include:
           - laravel: '9.*'
-            testbench: '8.*'
+            testbench: '7.*'
           - laravel: '10.*'
             testbench: '8.*'
 
