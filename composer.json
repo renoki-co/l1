@@ -31,7 +31,7 @@
         "illuminate/cache": "^9.35|^10.5",
         "illuminate/database": "^9.35|^10.5",
         "saloonphp/laravel-http-sender": "^1.2",
-        "sammyjo20/saloon": "^2.0",
+        "sammyjo20/saloon": "^2.11",
         "sammyjo20/saloon-laravel": "^2.0"
     },
     "suggest": {
