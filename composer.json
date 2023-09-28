@@ -28,11 +28,11 @@
     ],
     "require": {
         "doctrine/dbal": "^3.6",
-        "illuminate/cache": "^9.35|^10.5",
-        "illuminate/database": "^9.35|^10.5",
+        "illuminate/cache": "^9.35|^10.23",
+        "illuminate/database": "^9.35|^10.23",
         "saloonphp/laravel-http-sender": "^1.2",
-        "sammyjo20/saloon": "^2.0",
-        "sammyjo20/saloon-laravel": "^2.0"
+        "saloonphp/laravel-plugin": "^2.1",
+        "saloonphp/saloon": "^2.11"
     },
     "suggest": {
         "ext-pdo": "Required to extend the PDO driver for Cloudflare D1."
