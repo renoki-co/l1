@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "doctrine/dbal": "^3.6",
+        "doctrine/dbal": "^3.7",
         "illuminate/cache": "^10.23",
         "illuminate/database": "^10.23",
         "saloonphp/laravel-http-sender": "^1.2",
