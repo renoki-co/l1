@@ -32,7 +32,7 @@
         "illuminate/database": "^10.23",
         "saloonphp/laravel-http-sender": "^1.2",
         "saloonphp/laravel-plugin": "^2.1",
-        "saloonphp/saloon": "^2.11"
+        "saloonphp/saloon": "^2.12"
     },
     "suggest": {
         "ext-pdo": "Required to extend the PDO driver for Cloudflare D1."
