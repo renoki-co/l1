@@ -28,7 +28,7 @@ composer require renoki-co/l1
 
 ### D1 with raw PDO
 
-Though D1 is not a relational database, it can be used as a PDO driver via our connector.
+Though D1 is not connectable via SQL protocols, it can be used as a PDO driver via the package connector. This proxies the query and bindings to the D1's `/query` endpoint in the Cloudflare API.
 
 ```php
 use RenokiCo\L1\D1\D1Pdo;
@@ -36,7 +36,7 @@ use RenokiCo\L1\D1\D1PdoStatement;
 use RenokiCo\L1\CloudflareD1Connector;
 
 $pdo = new D1Pdo(
-    dsn: 'sqlite::memory:',
+    dsn: 'sqlite::memory:', // irrelevant
     connector: new CloudflareD1Connector(
         database: 'your_database_id',
         token: 'your_api_token',
