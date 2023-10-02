@@ -13,7 +13,6 @@ class D1PdoStatement extends PDOStatement
     protected array $bindings = [];
     protected array $responses = [];
 
-
     public function __construct(
         protected D1Pdo &$pdo,
         protected string $query,
@@ -51,7 +50,7 @@ class D1PdoStatement extends PDOStatement
             $this->bindings,
         );
 
-        if ($response->failed() || !$response->json('success')) {
+        if ($response->failed() || ! $response->json('success')) {
             throw new PDOException(
                 (string) $response->json('errors.0.message'),
                 (int) $response->json('errors.0.code'),
