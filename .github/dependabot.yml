@@ -1,0 +1,28 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    groups:
+      all:
+        patterns: ["*"]
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 100
+    versioning-strategy: auto
+    rebase-strategy: auto
+    labels:
+      - dependabot:actions
+      - auto:dependabot
+      - dependencies
+
+  - package-ecosystem: composer
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 100
+    versioning-strategy: auto
+    rebase-strategy: auto
+    labels:
+      - dependabot:composer
+      - auto:dependabot
+      - dependencies

@@ -1,0 +1,70 @@
+{
+    "name": "renoki-co/l1",
+    "description": "Laravel integration for Cloudflare Workers services.",
+    "keywords": [
+        "laravel",
+        "php",
+        "database",
+        "query",
+        "sqlite",
+        "cloudflare",
+        "d1",
+        "kv",
+        "r2",
+        "workers",
+        "serverless",
+        "serverless functions",
+        "serverless framework",
+        "serverless architecture"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/renoki-co/l1",
+    "authors": [
+        {
+            "name": "Alex Renoki",
+            "homepage": "https://github.com/rennokki",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^3.6",
+        "illuminate/cache": "^10.23",
+        "illuminate/database": "^10.23",
+        "saloonphp/laravel-http-sender": "^1.2",
+        "saloonphp/laravel-plugin": "^2.1",
+        "saloonphp/saloon": "^2.11"
+    },
+    "suggest": {
+        "ext-pdo": "Required to extend the PDO driver for Cloudflare D1."
+    },
+    "autoload": {
+        "psr-4": {
+            "RenokiCo\\L1\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RenokiCo\\L1\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "laravel/legacy-factories": "^1.3",
+        "mockery/mockery": "^1.5",
+        "orchestra/testbench": "^8.3",
+        "phpunit/phpunit": "^9.5.21"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RenokiCo\\L1\\L1ServiceProvider"
+            ]
+        }
+    }
+}
