@@ -2,9 +2,7 @@
 
 namespace RenokiCo\L1;
 
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
-use RenokiCo\L1\CloudflareD1Connector;
 use RenokiCo\L1\D1\D1Connection;
 
 class L1ServiceProvider extends ServiceProvider

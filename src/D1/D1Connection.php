@@ -3,8 +3,8 @@
 namespace RenokiCo\L1\D1;
 
 use Illuminate\Database\SQLiteConnection;
-use RenokiCo\L1\D1\Pdo\D1Pdo;
 use RenokiCo\L1\CloudflareD1Connector;
+use RenokiCo\L1\D1\Pdo\D1Pdo;
 
 class D1Connection extends SQLiteConnection
 {

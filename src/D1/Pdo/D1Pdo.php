@@ -4,7 +4,6 @@ namespace RenokiCo\L1\D1\Pdo;
 
 use PDO;
 use PDOStatement;
-use RenokiCo\L1\D1\Pdo\D1PdoStatement;
 use RenokiCo\L1\CloudflareD1Connector;
 
 class D1Pdo extends PDO

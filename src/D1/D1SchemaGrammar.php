@@ -2,8 +2,8 @@
 
 namespace RenokiCo\L1\D1;
 
-use Illuminate\Support\Str;
 use Illuminate\Database\Schema\Grammars\SQLiteGrammar;
+use Illuminate\Support\Str;
 
 class D1SchemaGrammar extends SQLiteGrammar
 {
