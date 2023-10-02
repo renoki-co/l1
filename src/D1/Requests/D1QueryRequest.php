@@ -2,9 +2,9 @@
 
 namespace RenokiCo\L1\D1\Requests;
 
-use Saloon\Enums\Method;
 use RenokiCo\L1\CloudflareRequest;
 use Saloon\Contracts\Body\HasBody;
+use Saloon\Enums\Method;
 use Saloon\Traits\Body\HasJsonBody;
 
 class D1QueryRequest extends CloudflareRequest implements HasBody

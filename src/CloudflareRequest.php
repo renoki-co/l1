@@ -2,8 +2,8 @@
 
 namespace RenokiCo\L1;
 
-use Saloon\Http\Request;
 use Saloon\Contracts\Connector;
+use Saloon\Http\Request;
 
 abstract class CloudflareRequest extends Request
 {
