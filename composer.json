@@ -1,5 +1,5 @@
 {
-    "name": "renoki-co/l1",
+    "name": "stumason/l1",
     "description": "Laravel integration for Cloudflare Workers services.",
     "keywords": [
         "laravel",
@@ -18,11 +18,11 @@
         "serverless architecture"
     ],
     "license": "Apache-2.0",
-    "homepage": "https://github.com/renoki-co/l1",
+    "homepage": "https://github.com/stumason/l1",
     "authors": [
         {
             "name": "Alex Renoki",
-            "homepage": "https://github.com/rennokki",
+            "homepage": "https://github.com/stumason",
             "role": "Developer"
         }
     ],
